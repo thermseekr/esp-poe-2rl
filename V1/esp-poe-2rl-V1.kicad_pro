@@ -326,18 +326,6 @@
     [
       "2bc5a21a-1d79-419d-a592-6852cc07b00a",
       ""
-    ],
-    [
-      "7b388c9c-6faf-4681-b727-510de2ea001e",
-      "Power"
-    ],
-    [
-      "f2a42251-1da5-495a-abaf-29698c5bb0fe",
-      "MCU"
-    ],
-    [
-      "c76fc600-a423-4f14-bc69-e86c7c986b21",
-      "LAN"
     ]
   ],
   "text_variables": {}
