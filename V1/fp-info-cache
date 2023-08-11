@@ -1,4 +1,4 @@
-21575333422460595
+21582152337137789
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84217,6 +84217,13 @@ QFN NoLead
 59
 33
 Tales
+RJ45_Amphenol_P-RJE08-188-0X10
+Unshielded
+RJ45 8p8c ethernet cat5
+0
+8
+8
+Tales
 RJ45_Amphenol_RJHSE5080
 Unshielded
 RJ45 8p8c ethernet cat5
@@ -84237,6 +84244,13 @@ RJ45 4p8c ethernet cat5
 0
 32
 32
+Tales
+RJ45_UDE_RB1-ZZ-0266
+Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
+ethernet 8p8c transformer poe rj45
+0
+15
+14
 Tales
 RV_Disc_D12mm_W3.9mm_P7.5mm
 Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm
@@ -84268,6 +84282,13 @@ resistor
 Tales
 R_1206_3216Metric
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Tales
+R_2512_6332Metric
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
@@ -84378,6 +84399,13 @@ TerminalBlock_DG141V-2.54-5P_1x05_P2.54mm_Vertical
 10
 5
 Tales
+TerminalBlock_DG141V-2.54-6P_1x06_P2.54mm_Vertical
+
+
+0
+12
+6
+Tales
 TerminalBlock_DG141V-2.54-8P_1x08_P2.54mm_Vertical
 
 
@@ -84392,7 +84420,7 @@ TerminalBlock_DG141V-2.54-9P_1x09_P2.54mm_Vertical
 18
 9
 Tales
-TerminalBlock_KF152V-5.08-2P_1x02_P5.08mm_Vertical
+TerminalBlock_JL142V-5.08-2P_1x02_P5.08mm_Vertical
 
 
 0
