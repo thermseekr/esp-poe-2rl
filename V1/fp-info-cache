@@ -1,4 +1,4 @@
-21587227768318530
+21590611719088022
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84315,9 +84315,23 @@ resistor
 2
 2
 Tales
+Relay_SPDT_Songle_SRD
+Songle SRD-xVDC-SL-A, SPDT relay, 15A
+spdt relay
+0
+5
+5
+Tales
 Relay_SPST_Omron-G5PZ-1A
 Relay SPST-NO Omron Serie G5PZ, http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5pz.pdf
 Relay SPST-NO Omron Serie G5PZ
+0
+4
+4
+Tales
+Relay_SPST_Songle_SRD_FormA
+Songle SRD-xVDC-SL-A, SPDT relay, 15A
+spdt relay
 0
 4
 4
