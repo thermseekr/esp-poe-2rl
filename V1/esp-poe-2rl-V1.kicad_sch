@@ -5199,6 +5199,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54c373a0-fe1f-4bd3-af8a-92e6e618ad8e)
   )
+  (text "SUBSTITUIR POR C2765186" (at 29.21 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 726b8a27-61ac-4667-a868-bbc6cb49fe2a)
+  )
   (text "OPÇÕES DE CONECTORES RJ45\n\nUDE CORP RB1-ZZ-0266\nJLCPCB C409617\n\nHCTL HC931147C-M897-A\nJLCPCB C3021372\n\nHANRUN HY931147C\nJLCPCB C91754\n\nABRACON ARJP11A-MASA-B-A-FMU2\nMOUSER 815-ARJP11AMAFMU2\n\nCUI DEVICES CRJ005-M1-TH\nMOUSER 490-CRJ005-M1-TH\nSEM LEDS\nSEM DIODOS\n\nMDD MB6S\nJLCPCB C2487\nPONTE RETIFICADORA\n"
     (at 367.03 250.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
