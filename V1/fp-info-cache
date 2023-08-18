@@ -1,4 +1,4 @@
-21819092212797905
+21822500797918693
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85092,40 +85092,47 @@ TSOT TO_SOT_SMD
 5
 5
 Tales
-TerminalBlock_DG141V-2.54-5P_1x05_P2.54mm_Vertical
+TerminalBlock_Phoenix_FFKDSA-V1-5.08-2_1x02_P5.08mm_Vertical
+
+
+0
+4
+2
+Tales
+TerminalBlock_Phoenix_FFKDSA1-H1-5,08- 2_1x02_P5.08mm_Horizontal
+
+
+0
+4
+2
+Tales
+TerminalBlock_Phoenix_FFKDSA1-V-2.54-5_1x05_P2.54mm_Vertical
 
 
 0
 10
 5
 Tales
-TerminalBlock_DG141V-2.54-6P_1x06_P2.54mm_Vertical
+TerminalBlock_Phoenix_FFKDSA1-V-2.54-6_1x06_P2.54mm_Vertical
 
 
 0
 12
 6
 Tales
-TerminalBlock_DG141V-2.54-8P_1x08_P2.54mm_Vertical
+TerminalBlock_Phoenix_FFKDSA1-V-2.54-8_1x08_P2.54mm_Vertical
 
 
 0
 16
 8
 Tales
-TerminalBlock_DG141V-2.54-9P_1x09_P2.54mm_Vertical
+TerminalBlock_Phoenix_FFKDSA1-V-2.54-9_1x09_P2.54mm_Vertical
 
 
 0
 18
 9
-Tales
-TerminalBlock_JL142V-5.08-2P_1x02_P5.08mm_Vertical
-
-
-0
-4
-2
 Tales
 TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-3-2-5.08, 2 pins, pitch 5.08mm, size 10.2x11.2mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/2138224.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
@@ -85195,6 +85202,13 @@ Terminal Block Phoenix PT-1,5-17-3.5-H, 17 pins, pitch 3.5mm
 THT Terminal Block Phoenix PT-1,5-17-3.5-H pitch 3.5mm
 0
 17
+17
+Tales
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+20
 17
 Tales
 USB_C_Receptacle_JAE_DX07S024WJ1R350

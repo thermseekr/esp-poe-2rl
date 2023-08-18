@@ -5247,6 +5247,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 916e1284-540b-482f-838a-825039c7807c)
   )
+  (text "TROCAR CONECTORES POR HORIZONTAL\nC2898709" (at 203.2 179.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ff60ac11-3f21-4a2f-9271-bac23546647d)
+  )
 
   (label "EMAC_RX" (at 200.66 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
