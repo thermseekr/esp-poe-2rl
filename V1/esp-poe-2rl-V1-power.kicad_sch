@@ -1903,7 +1903,7 @@
     (property "Value" "2,2uH/1,5A" (at 96.52 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Tales:L_3x3_h1.5" (at 96.52 148.59 0)
+    (property "Footprint" "Tales:L_3x3mm_h1.5mm" (at 96.52 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 96.52 148.59 0)
