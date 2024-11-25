@@ -1229,8 +1229,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 0 -1.27 0)
+			(property "Footprint" "Tales:TSOT-23-5"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+			(property "Footprint" "Tales:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1636,8 +1636,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias"
-				(at 1.27 -2.54 0)
+			(property "Footprint" "Tales:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias"
+				(at 1.27 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1852,9 +1852,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1952,8 +1952,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1972,9 +1972,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2048,8 +2048,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2224,12 +2224,6 @@
 		(uuid "446d1f7c-17cd-4f59-a882-5d2518605855")
 	)
 	(junction
-		(at 27.94 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45f28a5f-b073-48ac-913f-041662973102")
-	)
-	(junction
 		(at 27.94 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2288,6 +2282,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea4610b-94a8-46a6-8ce6-0fa00f108e04")
+	)
+	(junction
+		(at 27.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab53df7-a66a-4808-b811-7600e4eb4618")
 	)
 	(junction
 		(at 43.18 60.96)
@@ -2454,16 +2454,6 @@
 			(type default)
 		)
 		(uuid "10d69325-f4e2-4083-8eb7-99f43e5075d9")
-	)
-	(wire
-		(pts
-			(xy 24.13 86.36) (xy 27.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129e31cd-04b5-4fcf-b264-6a3d8b4a4fe7")
 	)
 	(wire
 		(pts
@@ -2747,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 21.59) (xy 158.75 21.59)
+			(xy 142.24 21.59) (xy 172.72 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2887,6 +2877,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e772f88-8eec-4831-afb0-27adccab1621")
+	)
+	(wire
+		(pts
 			(xy 158.75 54.61) (xy 158.75 55.88)
 		)
 		(stroke
@@ -3014,6 +3014,16 @@
 			(type default)
 		)
 		(uuid "90d34b8a-cfd6-4f30-a073-7218e5f33b79")
+	)
+	(wire
+		(pts
+			(xy 27.94 86.36) (xy 27.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913880d2-7659-4089-89fc-848c4dc72aac")
 	)
 	(wire
 		(pts
@@ -3304,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "bf9cb452-93a2-4783-9465-5991708d18d0")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 172.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4eff845-0e3d-4b54-a9f2-a902e9eb8467")
 	)
 	(wire
 		(pts
@@ -3649,7 +3669,7 @@
 	)
 	(text "DETECTION RESISTANCE MUST BE 24.9K +/- 5% OR 23,655K TO 26.145K.\n\nTHE TOTAL RESISTANCE OF THE VOLTAGE DIVIDER TO UVLO WILL APPEAR IN PARALLEL\nWITH R_{DET} TO FORM THE EQUIVALENT DETECTION RESISTANCE.\n\nR_{EQUIV} = (R_{DIV1} + R_{DIV2}) // R_{DET}\nR_{EQUIV} = 140 // 30.1\nR_{EQUIV} = 24.774k -> OK"
 		(exclude_from_sim no)
-		(at 177.8 104.14 0)
+		(at 181.61 104.14 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3682,7 +3702,7 @@
 	)
 	(text "R_{CLASS} = 4420R 1%\nCLASS 0 -> 0.44 - 12,95W"
 		(exclude_from_sim no)
-		(at 177.8 77.47 0)
+		(at 181.61 77.47 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3715,7 +3735,7 @@
 	)
 	(text "R_{TX2} = R_{TX1}/(V_{OUT} / 0,805 - 1)\nV_{OUT} = (R_{TX1} / R_{TX2}) + 1) * 0,805\nV_{OUT} = (300k / 52,3k + 1) * 0,805\nV_{OUT} = 5,42V\nVOLTAGE DROP AT DIODE SS34 @2A = 0,4V\n5V MAIN BUS @2A = 5,02V"
 		(exclude_from_sim no)
-		(at 177.8 124.46 0)
+		(at 181.61 124.46 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3748,7 +3768,7 @@
 	)
 	(text "USB 2.0 -> 5V 500mA\nUSB 3.0 -> 5V 900mA\n\nVOLTAGE DROP AT DIODE B5819W @500mA = 0,4V\n5V USB BUS @500mA = 4,6V"
 		(exclude_from_sim no)
-		(at 177.8 161.29 0)
+		(at 181.61 161.29 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3759,7 +3779,7 @@
 	)
 	(text "TPS2375 (IEEE 802.3af)\nTURN ON VOLTAGE = 39.3V\nTURN OFF VOLTAGE = 30.5V"
 		(exclude_from_sim no)
-		(at 177.8 44.45 0)
+		(at 181.61 44.45 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3781,7 +3801,7 @@
 	)
 	(text "TPS2376-H\nTURN ON VOLTAGE: V_{TAP} = 2.49V\nHYSTERESIS = 0.56V\nTURN OFF VOLTAGE: V_{TAP} = 1.93V"
 		(exclude_from_sim no)
-		(at 222.25 44.45 0)
+		(at 226.06 44.45 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3792,7 +3812,7 @@
 	)
 	(text "R_{SY1} = (V_{OUT} - 0,6V) * R_{SY2} / 0,6V\n\nV_{OUT} = (0,6 * R_{SY1} / R_{SY2}) + 0,6\nV_{OUT} = (0,6 * 100k/22,1k) +0,6\nV_{OUT} = 3,31V"
 		(exclude_from_sim no)
-		(at 177.8 142.24 0)
+		(at 181.61 142.24 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3825,7 +3845,7 @@
 	)
 	(text "NOTES"
 		(exclude_from_sim no)
-		(at 177.8 25.4 0)
+		(at 181.61 25.4 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3858,7 +3878,7 @@
 	)
 	(text "802.3af VOLTAGES: 44-57VDC"
 		(exclude_from_sim no)
-		(at 177.8 31.75 0)
+		(at 181.61 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3889,7 @@
 	)
 	(text "V_{TAP} = V_{DD} * R_{TPS2} / (R_{TPS1}+R_{TPS2})\n\nTURN ON:\n2.50 = V_{DD} * 10.0 / 140.0\nV_{DD} = 35.00V -> OK\n\nTURN 0FF:\n1.93 = V_{DD} * 10.0 / 140.0\nV_{DD} = 27.02V -> OK"
 		(exclude_from_sim no)
-		(at 177.8 68.58 0)
+		(at 181.61 68.58 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3891,28 +3911,6 @@
 		(uuid "037bf7ab-2800-4165-ab5a-f1d3478a3632")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.0838 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD"
-		(shape input)
-		(at 24.13 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a1de2ff-5f2d-49d2-afa7-2af01ee6a17f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5956 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,28 +3960,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD"
-		(shape output)
-		(at 158.75 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3e6c653-17a6-4e5e-8dcb-6b67ca839002")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2844 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4111,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 185.42 0)
 			(effects
 				(font
@@ -4177,7 +4153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 156.21 0)
 			(effects
 				(font
@@ -4317,7 +4293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 77.47 86.36 0)
 			(effects
 				(font
@@ -4457,7 +4433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 46.99 0)
 			(effects
 				(font
@@ -4524,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -4666,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 124.46 123.19 0)
 			(effects
 				(font
@@ -4807,7 +4783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 63.5 146.05 0)
 			(effects
 				(font
@@ -4871,7 +4847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 96.52 148.59 0)
 			(effects
 				(font
@@ -5012,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 43.18 40.64 0)
 			(effects
 				(font
@@ -5154,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 156.21 0)
 			(effects
 				(font
@@ -5295,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -5361,7 +5337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -5426,7 +5402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 33.02 148.59 0)
 			(effects
 				(font
@@ -5566,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 64.77 30.48 0)
 			(effects
 				(font
@@ -5706,7 +5682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -5847,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -5989,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 106.68 156.21 0)
 			(effects
 				(font
@@ -6130,7 +6106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IEEE802.3af PoE Controller, Auto-Retry"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -6293,7 +6269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 142.24 50.8 0)
 			(effects
 				(font
@@ -6433,7 +6409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -6500,7 +6476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 82.55 50.8 0)
 			(effects
 				(font
@@ -6643,7 +6619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -6710,7 +6686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -6851,7 +6827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -6918,7 +6894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 107.95 30.48 0)
 			(effects
 				(font
@@ -7061,7 +7037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 55.88 0)
 			(effects
 				(font
@@ -7128,7 +7104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -7271,7 +7247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 114.3 156.21 0)
 			(effects
 				(font
@@ -7413,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -7557,7 +7533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -7700,7 +7676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -7843,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, small symbol"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -7985,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -8126,7 +8102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 44.45 171.45 0)
 			(effects
 				(font
@@ -8248,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+		(property "Footprint" "Tales:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias"
 			(at 62.23 93.98 0)
 			(effects
 				(font
@@ -8266,7 +8242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4A, 60V, 200KHz Step-Down Converter"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -8427,7 +8403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -8493,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -8634,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 110.49 0)
 			(effects
 				(font
@@ -8700,7 +8676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 175.26 0)
 			(effects
 				(font
@@ -8766,7 +8742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -8905,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Efficiency 5.5V, 2A continuous, 3A peak, 1MHz Synchronous Step Down Regulator"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -9054,7 +9030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 168.91 0)
 			(effects
 				(font
@@ -9120,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -9260,7 +9236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode, small symbol"
 			(at 33.02 163.83 0)
 			(effects
 				(font
@@ -9399,7 +9375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -9465,7 +9441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -9605,7 +9581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 151.13 147.32 0)
 			(effects
 				(font
@@ -9670,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 44.45 146.05 0)
 			(effects
 				(font
@@ -9736,7 +9712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 161.29 0)
 			(effects
 				(font
