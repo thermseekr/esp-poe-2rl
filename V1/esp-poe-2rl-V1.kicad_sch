@@ -24413,7 +24413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 142.24 248.92 0)
 			(effects
 				(font
@@ -26265,7 +26265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Tales:D_SOD-123"
 			(at 142.24 200.66 0)
 			(effects
 				(font
