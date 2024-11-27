@@ -8863,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:TSOT-23-5"
+		(property "Footprint" "Tales:SOT-23-5_Shorter_Pins"
 			(at 80.01 152.4 0)
 			(effects
 				(font

@@ -15232,7 +15232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32U"
+		(property "Footprint" "Tales:ESP32-WROOM-32U"
 			(at 181.61 133.35 0)
 			(effects
 				(font
@@ -19578,7 +19578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
+		(property "Footprint" "Tales:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
 			(at 312.42 129.54 0)
 			(effects
 				(font
