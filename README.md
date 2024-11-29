@@ -5,4 +5,4 @@ ESP32 based board with PoE, temperature/humidity sensor, and two relays. To be u
 
 ## VERSION HISTORY
 
-ESP-POE-2RL-V1 - Initial version.
+ESP-POE-2RL-V1 - Initial release.
