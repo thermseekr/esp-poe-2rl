@@ -15542,7 +15542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 318.77 52.07 0)
 			(effects
 				(font
@@ -18532,7 +18532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 127 45.0913 0)
 			(effects
 				(font
@@ -22034,7 +22034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 82.55 45.0913 0)
 			(effects
 				(font
@@ -23915,7 +23915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 295.91 182.2513 0)
 			(effects
 				(font
@@ -24325,7 +24325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 320.04 35.56 0)
 			(effects
 				(font
@@ -26906,7 +26906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1uF/50V"
+		(property "Value" "100nF/50V"
 			(at 336.55 52.07 0)
 			(effects
 				(font

@@ -7837,7 +7837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C115922"
+		(property "LCSC Part #" "C132936"
 			(at 30.48 45.085 90)
 			(effects
 				(font
@@ -7846,7 +7846,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr" "Brightking"
+		(property "Mfr" "STMicroelectronics"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -7855,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "SMAJ58A/TR13"
+		(property "Mfr PN" "SMAJ58A-TR"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -7882,7 +7882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C115922"
+		(property "Vendor PN" "C132936"
 			(at 30.48 45.085 90)
 			(effects
 				(font
