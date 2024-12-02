@@ -5700,7 +5700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C127788"
+		(property "LCSC Part #" "C169386"
 			(at 95.25 104.14 90)
 			(effects
 				(font
@@ -5717,7 +5717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "SWRH1205B-330MT"
+		(property "Mfr PN" "SWRB1205S-330MT"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C127788"
+		(property "Vendor PN" "C169386"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part #" "C116424"
+		(property "LCSC Part #" "C178570"
 			(at 144.78 56.0832 0)
 			(effects
 				(font
@@ -6296,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr" "Semtech"
+		(property "Mfr" "Panasonic"
 			(at 142.24 50.8 0)
 			(effects
 				(font
@@ -6305,7 +6305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CS2A220M-CRF10"
+		(property "Mfr PN" "EEEFK2A220P"
 			(at 142.24 50.8 0)
 			(effects
 				(font
@@ -6323,7 +6323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C116424"
+		(property "Vendor PN" "C178570"
 			(at 142.24 50.8 0)
 			(effects
 				(font
