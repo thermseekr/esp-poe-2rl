@@ -6781,11 +6781,11 @@
 		(tags "ethernet 8p8c transformer poe rj45")
 		(property "Reference" "J2"
 			(at 5.71 -3.1 0)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(uuid "3d7801f3-c6fd-4a87-8aeb-86023b510903")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16886,11 +16886,11 @@
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q1"
 			(at 0 -2.25 90)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(uuid "a78fc9a3-68b7-426b-8296-eada12c80949")
 			(effects
 				(font
-					(size 1 1)
+					(size 1 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17177,7 +17177,7 @@
 			(uuid "fd074624-05c8-4ca6-8251-ebabb29258fc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "39dad278-032e-428d-bdd7-e4f05f7c9bfb")
 			(effects
@@ -34962,6 +34962,83 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 133.5 81.5)
+		(end 133.7 81.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "020d91cc-7b61-4adc-9d5e-eac6a29f42f6")
+	)
+	(gr_circle
+		(center 104.05 74)
+		(end 104.25 74)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6c8c9f2c-53ef-4921-a6fd-517caacb4d37")
+	)
+	(gr_circle
+		(center 135.8 86.25)
+		(end 136 86.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "865dd18b-5bed-47e8-8673-239299536f9b")
+	)
+	(gr_circle
+		(center 156.55 73.25)
+		(end 156.75 73.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bfda1be4-c619-4bfc-96f6-e85c6f64986f")
+	)
+	(gr_circle
+		(center 146.8 107.75)
+		(end 147 107.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c41dc38d-735b-48da-a403-47de503ba714")
+	)
+	(gr_circle
+		(center 106.05 107)
+		(end 106.25 107)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cd44ae2e-f294-46fd-bee2-7ff7df52c165")
+	)
+	(gr_circle
+		(center 146.05 91.25)
+		(end 146.25 91.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d15018a1-0665-40cc-9c59-c45a04e9afe5")
 	)
 	(gr_line
 		(start 79.25 74.25)
