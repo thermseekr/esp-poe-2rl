@@ -7934,7 +7934,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "EMERALD"
 			(at 46.99 181.61 90)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight eLEC"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -7979,7 +7979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -8006,7 +8006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2984266"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -8015,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2984266"
 			(at 46.99 186.69 90)
 			(effects
 				(font

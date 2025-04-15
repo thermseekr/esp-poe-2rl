@@ -68,8 +68,12 @@
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
 			)
-			(layer "B.SilkS"
+			(layer "dielectric 2"
 				(type "Bottom Silk Screen")
+				(thickness 0)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -15927,7 +15931,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "EMERALD"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ce63c051-dd42-42d9-8f1d-b4a53fac0304")
@@ -15986,7 +15990,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2984266"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15998,7 +16002,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight eLEC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16010,7 +16014,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16058,7 +16062,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2984266"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16561,7 +16565,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "EMERALD"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a24ef928-3f41-40c7-a65a-faa4405dfec3")
@@ -16620,7 +16624,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2984266"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16632,7 +16636,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight eLEC"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16644,7 +16648,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16692,7 +16696,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2984266"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19684,7 +19688,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "EMERALD"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ed2e973f-f77e-447a-9531-d46b86519ab5")
@@ -19743,7 +19747,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2984266"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19755,7 +19759,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight eLEC"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19767,7 +19771,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19815,7 +19819,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2984266"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
