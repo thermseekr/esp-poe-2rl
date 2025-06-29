@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "336f84ab-e185-49a9-905e-a10e57ccc8a5")
 	(paper "A4")
+	(title_block
+		(title "ESP 2x Relay Output Module with PoE")
+		(date "2025-06-29")
+		(rev "V1.3")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)

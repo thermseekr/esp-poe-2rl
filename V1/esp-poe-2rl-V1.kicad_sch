@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ESP 2x Relay Output Module with PoE")
-		(date "2023-08-02")
-		(rev "V1")
+		(date "2025-06-29")
+		(rev "V1.3")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"

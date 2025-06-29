@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "ESP 2x Relay Output Module with PoE")
+		(date "2025-06-29")
+		(rev "V1.3")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -17297,12 +17302,12 @@
 		(layer "F.Cu")
 		(uuid "668e0195-b4df-405e-b1ed-453209e6e601")
 		(at 117.15 94.55 90)
-		(descr "SOT-363, SC-70-6")
-		(tags "SOT-363 SC-70-6")
+		(descr "SOT-363, SC-70-6, SC-88")
+		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q1"
 			(at 0 -2.25 90)
 			(layer "Cmts.User")
-			(uuid "3af0d26f-f765-4fd2-82e5-9fcc4aceffda")
+			(uuid "ae1b926e-98c2-4e8a-b9a4-626d75a33d4c")
 			(effects
 				(font
 					(size 1 0.7)
@@ -17313,7 +17318,7 @@
 		(property "Value" "UMH3N"
 			(at 0 2 90)
 			(layer "F.Fab")
-			(uuid "bfa3f832-7788-45fa-8036-ae325f053205")
+			(uuid "c51718e6-5a94-49f8-9281-a547f92cd8b6")
 			(effects
 				(font
 					(size 1 1)
@@ -17326,7 +17331,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3850eaad-70f6-4d0e-b64f-ae957620f682")
+			(uuid "7fabbdee-e6e8-4cca-ab3c-9c612245fec9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17339,7 +17344,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af7b78c5-129f-4d2f-9081-54a95620af0a")
+			(uuid "2a5899b6-143f-4ac0-aa67-84a6257204a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "626fef68-803a-46c7-8dc1-1bc57a910572")
+			(uuid "d2890836-7cda-4cab-baeb-68d992ae1260")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17477,7 +17482,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "94d0d8ce-ada9-4b57-8c6e-5bf8bd595256")
+			(uuid "5b601572-9c40-403c-9c40-63e0ab4e8570")
 		)
 		(fp_line
 			(start -0.7 1.16)
@@ -17487,7 +17492,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a05da9ca-756b-49bd-89be-69cffb54e660")
+			(uuid "abbfeef4-b0b7-456b-9f09-0beb161ccdc1")
 		)
 		(fp_poly
 			(pts
@@ -17499,7 +17504,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "f2d74bfb-f5a1-4f6d-8794-4b81e0d6fd3f")
+			(uuid "df55b113-0f37-4d45-89bf-cc4d5eceb33c")
 		)
 		(fp_line
 			(start -1.6 -1.4)
@@ -17509,7 +17514,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0d60fbb5-944b-4018-8b2c-866625cd371c")
+			(uuid "f7237554-15fd-4c50-b952-86ed5bbf21f9")
 		)
 		(fp_line
 			(start -1.6 -1.4)
@@ -17519,7 +17524,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ae1f9290-e26e-491b-adfa-1a8e01a25ba8")
+			(uuid "1df9830f-4542-4812-b6c3-309866f9160f")
 		)
 		(fp_line
 			(start 1.6 1.4)
@@ -17529,7 +17534,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "993da395-a95d-41e0-a28e-3e6bb610fd24")
+			(uuid "38219844-17ec-4144-8020-0cb872017c47")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -17539,7 +17544,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0e8969c4-1230-4f93-abeb-bb8e4754e9d3")
+			(uuid "010b2e8c-4197-420c-a074-1ceeb6acd98d")
 		)
 		(fp_line
 			(start 0.675 -1.1)
@@ -17549,7 +17554,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fa2d824a-51e1-499c-a909-f0afbfb11e2d")
+			(uuid "56f27ebd-9f0d-4d4b-b254-8a8ea5b7965c")
 		)
 		(fp_line
 			(start 0.675 -1.1)
@@ -17559,7 +17564,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f7acc990-344f-4720-8ebc-e08cafe169cd")
+			(uuid "bf5db4e9-757a-497b-932f-d8fa33a3d7d2")
 		)
 		(fp_line
 			(start -0.175 -1.1)
@@ -17569,7 +17574,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4404dfcb-9d8b-41ab-a5d2-8260f466500a")
+			(uuid "2890a87d-4269-4b04-8393-f6ec25cccd54")
 		)
 		(fp_line
 			(start -0.675 -0.6)
@@ -17579,7 +17584,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c85557ae-08cb-40b7-99a2-700a5cc1dc5a")
+			(uuid "6d4b7f60-d6d5-4d7e-8976-2b12628e16a3")
 		)
 		(fp_line
 			(start 0.675 1.1)
@@ -17589,12 +17594,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6fa1d619-b176-4107-8e22-fe5304fb6b49")
+			(uuid "18dfeda5-a7f9-43eb-87dc-67c2ed544258")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "50db9619-7bd7-46fd-886a-1300d9706e92")
+			(uuid "686bee1a-e917-4409-80af-cbf2a5c172b8")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -17610,7 +17615,7 @@
 			(net 42 "Net-(Q1A-E1)")
 			(pinfunction "E1")
 			(pintype "passive")
-			(uuid "2038a2d4-d416-4bdc-a287-ee7d934836ad")
+			(uuid "cfa1632a-6df5-4ef9-91ad-302b8747c2ee")
 		)
 		(pad "2" smd roundrect
 			(at -0.95 0 90)
@@ -17620,7 +17625,7 @@
 			(net 43 "Net-(Q1A-B1)")
 			(pinfunction "B1")
 			(pintype "input")
-			(uuid "3b8f59a8-af4b-4f25-a6fe-f8fa402f8e75")
+			(uuid "74f796d0-c13c-4904-abd8-cde53878d062")
 		)
 		(pad "3" smd roundrect
 			(at -0.95 0.65 90)
@@ -17630,7 +17635,7 @@
 			(net 44 "Net-(Q1B-C2)")
 			(pinfunction "C2")
 			(pintype "passive")
-			(uuid "29b50e30-3039-4b66-afbb-593bf176e7ab")
+			(uuid "25826344-7378-4340-847a-d5f7ee957b25")
 		)
 		(pad "4" smd roundrect
 			(at 0.95 0.65 90)
@@ -17640,7 +17645,7 @@
 			(net 43 "Net-(Q1A-B1)")
 			(pinfunction "E2")
 			(pintype "passive")
-			(uuid "84e77dde-7951-4716-ac7d-d525b6e42c99")
+			(uuid "135df5ef-7397-43a3-808e-897da37a6171")
 		)
 		(pad "5" smd roundrect
 			(at 0.95 0 90)
@@ -17650,7 +17655,7 @@
 			(net 42 "Net-(Q1A-E1)")
 			(pinfunction "B2")
 			(pintype "input")
-			(uuid "4866cd7c-e08f-4e55-86ef-8d2ae9cc0bbc")
+			(uuid "a01c29ee-c70a-4427-a9ee-27eea16abd1d")
 		)
 		(pad "6" smd roundrect
 			(at 0.95 -0.65 90)
@@ -17660,7 +17665,7 @@
 			(net 12 "Net-(Q1A-C1)")
 			(pinfunction "C1")
 			(pintype "passive")
-			(uuid "8ef965aa-6a50-4ca4-8c84-cd8534870e1b")
+			(uuid "3c3b90e2-85ed-4a99-996e-faf03e6f4045")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.wrl"
 			(offset
@@ -35424,7 +35429,7 @@
 		)
 	)
 	(gr_text "TMASCHIO 2025"
-		(at 80.5 91.5 90)
+		(at 80.5 90.5 90)
 		(layer "F.SilkS")
 		(uuid "09c0198c-3334-473e-ad9a-2e8de8c78195")
 		(effects
@@ -35481,8 +35486,8 @@
 			)
 		)
 	)
-	(gr_text "ESP-POE-2RL-V1"
-		(at 78.5 91.5 90)
+	(gr_text "ESP-POE-2RL V1.3"
+		(at 78.5 90.5 90)
 		(layer "F.SilkS")
 		(uuid "f799bdaf-0465-40cf-9c4f-cbdfc3b87ec0")
 		(effects
