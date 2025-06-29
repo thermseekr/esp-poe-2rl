@@ -14,3 +14,8 @@ ESP-POE-2RL V1.3 - Layers reordered and board fully rerouted for better signal i
 ESP-POE-2RL V1.2 - Connectors adjusted for best fitting the case.
 
 ESP-POE-2RL V1.1 - Initial release.
+
+## LICENSE
+
+This project is licensed under the [Creative Commons BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
+Commercial use is not permitted without prior written consent. See the [LICENSE.txt](LICENSE.txt) file for details.
