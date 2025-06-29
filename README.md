@@ -9,4 +9,8 @@ A case is also available for 3D printing.
 
 ## VERSION HISTORY
 
-ESP-POE-2RL-V1 - Initial release.
+ESP-POE-2RL V1.3 - Layers reordered and board fully rerouted for better signal integrity.
+
+ESP-POE-2RL V1.2 - Connectors adjusted for best fitting the case.
+
+ESP-POE-2RL V1.1 - Initial release.
