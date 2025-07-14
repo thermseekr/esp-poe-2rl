@@ -14884,7 +14884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD"
+		(property "Value" "WHITE"
 			(at 125.73 253.3015 90)
 			(effects
 				(font
@@ -14920,7 +14920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Everlight eLEC"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 123.19 252.73 0)
 			(effects
 				(font
@@ -14929,7 +14929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 123.19 252.73 0)
 			(effects
 				(font
@@ -14956,7 +14956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 123.19 252.73 0)
 			(effects
 				(font
@@ -14965,7 +14965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 125.73 255.8415 90)
 			(effects
 				(font
@@ -14983,7 +14983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603/1608"
 			(at 123.19 252.73 0)
 			(effects
 				(font
@@ -16060,7 +16060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD"
+		(property "Value" "WHITE"
 			(at 125.73 205.0415 90)
 			(effects
 				(font
@@ -16096,7 +16096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Everlight eLEC"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 123.19 204.47 0)
 			(effects
 				(font
@@ -16105,7 +16105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 123.19 204.47 0)
 			(effects
 				(font
@@ -16132,7 +16132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 123.19 204.47 0)
 			(effects
 				(font
@@ -16141,7 +16141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 125.73 207.5815 90)
 			(effects
 				(font
@@ -16159,7 +16159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603/1608"
 			(at 123.19 204.47 0)
 			(effects
 				(font
@@ -17467,7 +17467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "1206/3216"
 			(at 64.77 34.29 0)
 			(effects
 				(font

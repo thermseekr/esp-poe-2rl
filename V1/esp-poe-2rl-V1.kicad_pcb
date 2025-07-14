@@ -12780,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "1206/3216"
 			(at 301.2 170 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16284,7 +16284,7 @@
 				)
 			)
 		)
-		(property "Value" "EMERALD"
+		(property "Value" "WHITE"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4281777f-c421-4415-b632-1053ac896620")
@@ -16331,7 +16331,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16343,7 +16343,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight eLEC"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16355,7 +16355,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16367,7 +16367,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603/1608"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16403,7 +16403,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16920,7 +16920,7 @@
 				)
 			)
 		)
-		(property "Value" "EMERALD"
+		(property "Value" "WHITE"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1471554a-8bfd-463b-a5ce-d4a32cf14354")
@@ -16967,7 +16967,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16979,7 +16979,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight eLEC"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16991,7 +16991,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17003,7 +17003,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603/1608"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17039,7 +17039,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 190.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19967,7 +19967,7 @@
 				)
 			)
 		)
-		(property "Value" "EMERALD"
+		(property "Value" "WHITE"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9d0edb11-ad95-4ad3-b972-023aaca343d7")
@@ -20014,7 +20014,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2984266"
+		(property "LCSC Part #" "C2290"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20026,7 +20026,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight eLEC"
+		(property "Mfr" "Hubei KENTO Elec"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20038,7 +20038,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-213/GHC-XS1T1/5T"
+		(property "Mfr PN" "KT-0603W"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20050,7 +20050,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603/1608"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20086,7 +20086,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2984266"
+		(property "Vendor PN" "C2290"
 			(at 164.575 156 0)
 			(layer "F.Fab")
 			(hide yes)
