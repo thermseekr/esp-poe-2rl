@@ -5,6 +5,8 @@ PoE powered ESP32 based board featuring two SPST NO relays. Ideal for access con
 
 ## VERSION HISTORY
 
+V1.6 - 2026/07/02 - Added CPU health LED.
+
 V1.5 - 2026/06/13 - Repository renamed from ESP-POE-2RL to eumesmo-poe-2rl to align the design with the **eumesmo** line of building automation products.
 
 V1.4 - 2026/06/10 - Terminal blocks replaced for 3.5mm pitch. Deleted temperature sensor, board decreased 8mm in length. LAN8710A rotated for shorter traces. Pull-up resistor for MDIO adjusted from 2.2k to 1.5k as suggested in the datasheet. Bulk and decoupling capacitor sizes and types adjusted for better performance.
