@@ -37972,7 +37972,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "V1.5 2026-06-17"
+	(gr_text "V1.6 2026-07-02"
 		(at 141 114.375 0)
 		(layer "F.SilkS")
 		(uuid "48b140e4-3a79-4e4a-85c2-cfbe1e86b03d")
