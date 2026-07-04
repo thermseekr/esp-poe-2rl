@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "eumesmo 2x Relay Output Module with PoE")
-		(date "2026-06-17")
-		(rev "V1.5")
+		(date "2026-07-02")
+		(rev "V1.6")
 	)
 	(layers
 		(0 "F.Cu" mixed)
